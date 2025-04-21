@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
   <title>Breve Introdução</title>
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1>Wender Machado</h1>
-    <p>Apenas um jovem de 24, vindo do interior da Bahia, Morro do Chapéu que gosta muito de atividade fisica, jogos, e um barzinho para manter o equilibro, também estudo para me tornar um programador. </p>
+    <p>Apenas um jovem de 24, vindo do interior da Bahia, Morro do Chapéu que gosta muito de atividade fisica, jogos e um barzinho para manter o equilibro, também estudo para me tornar um programador. </p>
     <div class="btns">
       <button class="btn" id="btn-js">Clique para ver uma mensagem!</button> 
       <a href="#" class="btn-cta">Meus Hobbies</a>
@@ -16,28 +18,36 @@
   </header>
   <nav aria-label="navegação primária-hobbies">
     <ul class="hobbies">
-      <li class="hobbies-item"><img src="/img/games.jpg" alt="jogando-video-games"></li>
-      <span>Games</span>
-      <li class="hobbies-item"><img src="/img/academia.jpg" alt="jogando-video-games"></li>
-      <span>Academia</span>
-      <li class="hobbies-item"><img src="/img/corrida.jpg" alt="jogando-video-games"></li>
-      <span>Corrida</span>
+      <div class="hobbies-container">
+        <li class="hobbies-item"><img src="/img/games.jpg" alt="jogando-video-games"></li>
+        <span>Games</span>
+      </div>
+      <div class="hobbies-container">
+        <li class="hobbies-item"><img src="/img/academia.jpg" alt="Treinando na academia"></li>
+        <span>Academia</span>
+      </div>
+      <div class="hobbies-container">
+        <li class="hobbies-item"><img src="/img/games.jpg" alt="jogando-video-games"></li>
+        <span>Corrida</span>
+      </div>
     </ul>
-    <a href="#" class="btn-cta">Paises</a>
   </nav>
-  <table>
+<p class="paises">Tabela de paises</p>
+  <table class="tabela">
     <tr>
-      <td>Japão</td>
+      <td class="pais">Japão</td>
       <td><img src="/img/japa.jpg" alt="Japão"></td>
     </tr>
     <tr>
-      <td>Suiça</td>
+      <td class="pais">Suiça</td>
       <td><img src="/img/suiça.jpg" alt="Suiça"></td>
     </tr>
     <tr>
-      <td>Indonesia</td>
+      <td class="pais">Indonesia</td>
       <td><img src="/img/indonesia.jpg" alt="Canadá"></td>
     </tr>
   </table>
+
+  <footer><a href="https://www.chess.com/home">Vamos jogar Xadrez! ♟️</a></footer>
 </body>
 </html>
